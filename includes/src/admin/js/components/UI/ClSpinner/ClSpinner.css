@@ -1,0 +1,81 @@
+.cl-loader-wrapp {
+    padding: 1rem 2rem;
+    transition: opacity var(--cl-spn-fade-anim) ease-out;
+    z-index: 105;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cl-loader-wrapp--icon::before {
+    content: "";
+    background: center / contain no-repeat #00000096;
+    padding: 1.5rem;
+    margin-bottom: .75rem;
+    width: 100%;
+    mask-image: var(--cl-spn-icon);
+    -webkit-mask-image: var(--cl-spn-icon);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-position: top center;
+    -webkit-mask-position: top center;
+}
+
+.dark .cl-loader-wrapp--icon::before {
+    background-color: #fcfcfc;
+}
+
+.cl-dots-loader {
+    width: 12px;
+    height: 12px;
+    /* background: #000000;
+    box-shadow: 20px 0 #00000022, -20px 0 #000000; */
+    border-radius: 50%;
+    background: #00000096;
+    box-shadow: 20px 0 #00000022, -20px 0 #404040;
+    animation: cl-dots-anim 1s infinite linear alternate;
+    z-index: 500;
+}
+
+.dark .cl-dots-loader {
+    background: #ffffff96;
+    box-shadow: 20px 0 #ffffff22, -20px 0 #c2c2c2;
+    animation-name: cl-dots-anim--dark;
+}
+
+@keyframes cl-dots-anim {
+    0% {
+        box-shadow: 20px 0 #00000096, -20px 0 #00000022;
+        background: #00000096
+    }
+
+    33% {
+        box-shadow: 20px 0 #00000096, -20px 0 #00000022;
+        background: #00000022
+    }
+
+    66% {
+        box-shadow: 20px 0 #00000022, -20px 0 #00000096;
+        background: #00000022
+    }
+}
+
+@keyframes cl-dots-anim--dark {
+    0% {
+        box-shadow: 20px 0 #ffffff96, -20px 0 #ffffff22;
+        background: #ffffff96
+    }
+
+    33% {
+        box-shadow: 20px 0 #ffffff96, -20px 0 #ffffff22;
+        background: #ffffff22
+    }
+
+    66% {
+        box-shadow: 20px 0 #ffffff22, -20px 0 #ffffff96;
+        background: #ffffff22
+    }
+
+}

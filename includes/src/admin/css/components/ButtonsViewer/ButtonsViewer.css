@@ -1,0 +1,123 @@
+.elesViewerWrapp {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    border-right: 2px solid #e4e4e4;
+    border-left: 2px solid #e4e4e4;
+    border-bottom: 2px solid #e4e4e4;
+    max-width: var(--cl-stt-card-w);
+    margin: var(--cl-stt-card-mg);
+    flex-flow: column wrap;
+    padding: 0 1rem 2rem 1rem;
+    row-gap: 2rem;
+}
+
+.cl-btn-viewer {
+    display: grid;
+    grid-template-areas:
+        "label action"
+        "viewer viewer";
+    align-content: stretch;
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 1fr max-content;
+    align-items: flex-start;
+    gap: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    max-width: 510px;
+    width: 100%;
+}
+
+.cl-btn-viewer__body {
+    display: flex;
+    grid-area: viewer;
+    align-items: stretch;
+    width: 100%;
+    min-height: 120px;
+    max-height: 235px;
+    border-radius: 7px;
+    background-color: #F1F6F7;
+    border: 3px solid #cbcbcb;
+    transition: background-color 110ms ease-out;
+    align-self: stretch;
+    padding: 4rem 1rem;
+}
+
+.dark .cl-btn-viewer__body {
+    background-color: #3d3c3c;
+}
+
+.clSvgBtnWrapp {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.cl-btn-viewer small,
+.cl-btn-viewer__fld label {
+    font-size: 13px;
+    color: #827a70;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.cl-btn-viewer-wrapp {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.cl-btn-viewer__fld {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.cl-btn-viewer>label {
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    margin: 0;
+}
+
+.cl-btn-viewer>label>i {
+    margin-left: .25rem;
+    width: 16px;
+    height: 16px;
+}
+
+.cl-btn-viewer>a,
+.cl-btn-viewer>button {
+    margin-left: auto;
+}
+
+.cl-viewer__modalBody {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.cl-viewer__modalBody>.cl-btn-card-list {
+    height: auto;
+    flex-grow: 1;
+}
+
+.clBtnShowcase {
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 510px) {
+    .elesViewerWrapp {
+        flex-flow: row nowrap;
+        padding: 0 10% 2rem 10%;
+        row-gap: unset;
+    }
+
+    .cl-btn-viewer {
+        padding: 1.5rem 2rem;
+    }
+
+    .cl-btn-viewer__body {
+        padding: 4rem 2rem;
+    }
+}

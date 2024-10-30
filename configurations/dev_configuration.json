@@ -1,0 +1,8 @@
+{
+    "gateway": "http://localhost:3000",
+    "gatewayBe": "https://dev.clicklease.com/api",
+    "gatewayAppV3": "https://dev05.click-lease.net",
+    "gatewayJsdk": "https://uat.clicklease.com/jsdk",
+    "gatewayEcomServices": "http://localhost:3002/wc/api",
+    "imagsServerUrl": "https://www.clicklease.com/static"
+}

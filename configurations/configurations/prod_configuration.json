@@ -1,0 +1,10 @@
+{
+    "gateway": "http://localhost:3000",
+    "gatewayBe": "https://app.clicklease.com/api",
+    "gatewayAppV3": "https://app.clicklease.com",
+    "gatewayJsdk": "https://app.clicklease.com/jsdk",
+    "gatewayEcomServices": "https://app.clicklease.com/shopify/api",
+    "imagsServerUrl": "https://www.clicklease.com/static",
+    "x-clk-token": "70B1150811FCA95C5E2D9A92CAE90B2FA91DE2768C47E12D4E2C9D45C948853C61978DA7A6CB6A25",
+    "x-3scale-proxy-secret-token": "2F2989B64E87F7E7A8B5EEA53073C48EA0F890F4B9663C5A0970C26B9E22C06D9329F7428B8DB28F"
+}

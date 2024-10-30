@@ -1,0 +1,32 @@
+.cl-btn-card-list {
+    position: relative;
+}
+
+.cl-btn-card-list--loading::before {
+    content: "";
+    opacity: var(--cl-spn-fade-anim);
+    position: absolute;
+    background: #f1f6f7;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 100;
+    transition: opacity 100ms ease-out;
+}
+
+.dark .cl-btn-card-list--loading::before {
+    background: #3d3c3c;
+}
+
+.cl-btn-card-list .cl-loader-wrapp {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cl-card-tmp-ele {
+    display: flex;
+}

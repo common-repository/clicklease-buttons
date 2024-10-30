@@ -1,0 +1,117 @@
+:root {
+    --cl-plg-btn-hover: 81%;
+}
+
+.cl-app-btn {
+    max-height: 51px;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    padding: .5rem 1rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color ease-in 130ms, filter ease-in 120ms, transform ease-in 110ms, box-shadow cubic-bezier(0.47, 0, 0.745, 0.715) 110ms;
+    /* background-color: #1868c3; */
+    background-color: var(--cl-plg-btn-bg);
+    color: var(--cl-plg-btn-tx);
+}
+
+.cl-app-btn-lg {
+    padding: 0.75rem 1rem;
+    min-width: unset;
+    font-size: 16px;
+}
+
+.cl-app-btn-sm {
+    padding: 0.30rem .75rem;
+    font-size: 14px;
+}
+
+.cl-app-btn:hover {
+    filter: brightness(var(--cl-plg-btn-hover));
+}
+
+.cl-app-btn:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+.cl-app-btn:focus {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4.5px var(--cl-plg-btn-bg);
+}
+
+.cl-app-btn:active {
+    transform: scale(0.98);
+}
+
+.cl-app-btn:active:focus {
+    box-shadow: none;
+}
+
+.cl-app-btn--outline {
+    border: 2px solid var(--cl-plg-btn-bg);
+    background-color: transparent;
+    color: var(--cl-plg-btn-bg);
+}
+
+.cl-app-btn--outline:hover {
+    background-color: var(--cl-plg-btn-bg);
+    color: var(--cl-plg-btn-tx);
+}
+
+.cl-app-btn--outline:focus {
+    box-shadow: 0 1px 2px 3px #ffffff75, 0 1px 2px 3px var(--cl-plg-btn-bg);
+}
+
+
+a[class=cl-app-btn] {
+    grid-area: action;
+    background-color: transparent;
+    color: var(--cl-plg-btn-bg);
+    border: none;
+    border-radius: 0px;
+    min-width: unset;
+    padding: 0.5rem .125rem 0.25rem .125rem;
+    display: inline-flex;
+    position: relative;
+}
+
+a[class=cl-app-btn]:focus {
+    outline: 2px solid var(--cl-plg-btn-bg);
+    box-shadow: none;
+}
+
+a[class=cl-app-btn]:active:focus {
+    transform: none;
+}
+
+a[class=cl-app-btn]::before {
+    content: '';
+    position: absolute;
+    bottom: -0%;
+    left: 0%;
+    width: 100%;
+    padding-top: 2px;
+    background-color: var(--cl-plg-btn-bg);
+    transition: padding ease-in 130ms, transform ease-in 130ms;
+}
+
+a[class=cl-app-btn]:hover::before {
+    padding-top: 4px;
+    transform: translateY(2px);
+}
+
+@media only screen and (min-width: 510px) {
+    .cl-app-btn-lg {
+        min-width: 150px;
+    }
+}
+
+.cl-app-btn:disabled,
+a[class=cl-app-btn]:disabled {
+    filter: grayscale(50%);
+    transition: unset;
+    transform: unset !important;
+}

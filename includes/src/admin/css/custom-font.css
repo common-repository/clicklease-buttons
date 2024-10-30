@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "ClMont";
+  src: url("../../assets/font/Mont-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ClMont";
+  src: url("../../assets/font/Mont-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "ClMont";
+  src: url("../../assets/font/Mont-Light.otf") format("opentype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "ClMont";
+  src: url("../../assets/font/Mont-Book.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "ClMont";
+  src: url("../../assets/font/Mont-Black.otf") format("opentype");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Mont";
+  src: url('https://app.clicklease.com/jsdk/static/fonts/Mont-Regular.otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Mont";
+  src: url('https://app.clicklease.com/jsdk/static/fonts/Mont-Bold.otf');
+  font-style: bold;
+  font-weight: 700;
+}

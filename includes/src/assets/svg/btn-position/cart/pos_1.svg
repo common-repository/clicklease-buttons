@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 441 414">
+  <g id="Group_133" data-name="Group 133" transform="translate(-72 -97)">
+    <rect id="Rectangle_73" data-name="Rectangle 73" width="441" height="414" transform="translate(72 97)" fill="#eee" />
+    <rect id="Rectangle_74" data-name="Rectangle 74" width="410" height="44" transform="translate(86 109)" fill="#c7c7c7" />
+    <rect id="Rectangle_75" data-name="Rectangle 75" width="410" height="134" transform="translate(86 149)" fill="#e1e1e1" />
+    <rect id="Rectangle_76" data-name="Rectangle 76" width="37" height="37" transform="translate(111 165)" fill="#ab9f9f" />
+    <rect id="Rectangle_78" data-name="Rectangle 78" width="37" height="37" transform="translate(111 214)" fill="#ab9f9f" />
+    <rect id="Rectangle_77" data-name="Rectangle 77" width="120" height="10" transform="translate(170 179)" fill="#ab9f9f" />
+    <rect id="Rectangle_79" data-name="Rectangle 79" width="120" height="10" transform="translate(170 228)" fill="#ab9f9f" />
+    <text id="_160" data-name="$160" transform="translate(312 187)" fill="#8a8585" font-size="10" font-family="Mont-Bold, Mont" font-weight="700" letter-spacing="0.006em">
+      <tspan x="0" y="0">$160</tspan>
+    </text>
+    <text id="_100" data-name="$100" transform="translate(312 236)" fill="#8a8585" font-size="10" font-family="Mont-Bold, Mont" font-weight="700" letter-spacing="0.006em">
+      <tspan x="0" y="0">$100</tspan>
+    </text>
+    <text id="_160-2" data-name="$160" transform="translate(443 189)" fill="#8a8585" font-size="10" font-family="Mont-Bold, Mont" font-weight="700" letter-spacing="0.006em">
+      <tspan x="0" y="0">$160</tspan>
+    </text>
+    <text id="_260" data-name="$260" transform="translate(442 238)" fill="#8a8585" font-size="10" font-family="Mont-Bold, Mont" font-weight="700" letter-spacing="0.006em">
+      <tspan x="0" y="0">$260</tspan>
+    </text>
+    <g id="Group_124" data-name="Group 124" transform="translate(370 175.757)">
+      <rect id="Rectangle_54" data-name="Rectangle 54" width="23" height="17" transform="translate(0 0.243)" fill="#c4c1c1" />
+      <text id="_1" data-name="1" transform="translate(10 12.243)" fill="#4e4e4e" font-size="11" font-family="Mont-Regular, Mont">
+        <tspan x="0" y="0">1</tspan>
+      </text>
+    </g>
+    <g id="Group_129" data-name="Group 129" transform="translate(370 222.832)">
+      <rect id="Rectangle_54-2" data-name="Rectangle 54" width="23" height="17" transform="translate(0 0.169)" fill="#c4c1c1" />
+      <text id="_1-2" data-name="1" transform="translate(10 12.168)" fill="#4e4e4e" font-size="11" font-family="Mont-Regular, Mont">
+        <tspan x="0" y="0">1</tspan>
+      </text>
+    </g>
+    <g id="coupon" transform="translate(0 -1)">
+      <rect id="Rectangle_54-3" data-name="Rectangle 54" width="126" height="26" transform="translate(88 292)" fill="#c4c1c1" />
+      <g id="Group_125" data-name="Group 125" transform="translate(200 291.812)">
+        <rect id="Rectangle_80" data-name="Rectangle 80" width="101" height="26" transform="translate(-0.001 0.189)" fill="#4e4e4e" />
+        <text id="Apply_coupon" data-name="Apply coupon" transform="translate(15 15.189)" fill="#c4c1c1" font-size="10" font-family="Mont-Regular, Mont">
+          <tspan x="0" y="0">Apply coupon</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="Group_126" data-name="Group 126" transform="translate(395 290.811)">
+      <rect id="Rectangle_80-2" data-name="Rectangle 80" width="101" height="26" transform="translate(0 0.189)" fill="#4e4e4e" />
+      <text id="Update_cart" data-name="Update cart" transform="translate(19 15.189)" fill="#c4c1c1" font-size="10" font-family="Mont-Regular, Mont">
+        <tspan x="0" y="0">Update cart</tspan>
+      </text>
+    </g>
+    <g id="btn" transform="translate(262 437.337)">
+      <rect id="Rectangle_81" data-name="Rectangle 81" width="127" height="24" rx="12" transform="translate(0 -0.337)" fill="#0f77e1" />
+      <g id="Group_127" data-name="Group 127" transform="translate(9.426 5.547)">
+        <g id="Group_98" data-name="Group 98" transform="translate(0 0)">
+          <path id="Path_907" data-name="Path 907" d="M56.394,54.491a3.034,3.034,0,1,1,0-3.806l3.129-1.4a6.4,6.4,0,1,0,0,6.591Z" transform="translate(-47.63 -46.18)" fill="#fff" />
+          <path id="XMLID_24980_" d="M76.463,56.71,73.3,58.12,70.13,59.532,73.3,60.945l3.166,1.41-.838-2.822h0Z" transform="translate(-62.47 -53.125)" fill="#fff" />
+        </g>
+      </g>
+    </g>
+    <g id="Group_132" data-name="Group 132" transform="translate(0 -19)">
+      <g id="Group_128" data-name="Group 128" transform="translate(261 372.027)">
+        <rect id="Rectangle_82" data-name="Rectangle 82" width="122" height="38" transform="translate(0 -0.027)" fill="#c7c7c7" />
+        <rect id="Rectangle_84" data-name="Rectangle 84" width="113" height="38" transform="translate(125 -0.027)" fill="#e1e1e1" />
+        <rect id="Rectangle_85" data-name="Rectangle 85" width="113" height="38" transform="translate(125 37.973)" fill="#e1e1e1" />
+        <rect id="Rectangle_83" data-name="Rectangle 83" width="122" height="38" transform="translate(0 38.973)" fill="#c7c7c7" />
+        <text id="_260-2" data-name="$260" transform="translate(170 59.973)" fill="#8a8585" font-size="10" font-family="Mont-Bold, Mont" font-weight="700" letter-spacing="0.006em">
+          <tspan x="0" y="0">$260</tspan>
+        </text>
+        <text id="_260-3" data-name="$260" transform="translate(170 21.973)" fill="#8a8585" font-size="10" font-family="Mont-Bold, Mont" font-weight="700" letter-spacing="0.006em">
+          <tspan x="0" y="0">$260</tspan>
+        </text>
+        <line id="Line_26" data-name="Line 26" x2="121" transform="translate(0.043 38.5)" fill="none" stroke="#707070" stroke-width="2" />
+        <line id="Line_27" data-name="Line 27" x2="113" transform="translate(125.043 38.5)" fill="none" stroke="#707070" stroke-width="2" />
+        <text id="Total" transform="translate(16 17.973)" fill="#4e4e4e" font-size="12" font-family="Mont-Regular, Mont">
+          <tspan x="0" y="0">Total</tspan>
+        </text>
+        <text id="SubTotal" transform="translate(16 55.973)" fill="#4e4e4e" font-size="12" font-family="Mont-Regular, Mont">
+          <tspan x="0" y="0">SubTotal</tspan>
+        </text>
+      </g>
+      <g id="checkout" transform="translate(261 485.027)">
+        <rect id="Rectangle_80-3" data-name="Rectangle 80" width="235" height="31" transform="translate(0 -0.027)" fill="#4e4e4e" />
+        <text id="Checkout-2" data-name="Checkout" transform="translate(74.175 20)" fill="#c4c1c1" font-size="14" font-family="Mont-Regular, Mont">
+          <tspan x="0" y="0">Checkout</tspan>
+        </text>
+        <path id="Path_1017" data-name="Path 1017" d="M-13636.434,6579.074v2.749h11.176v3.239l5-5-5-4.643v3.651Z" transform="translate(13794.174 -6564.743)" fill="#c9c5c5" />
+      </g>
+    </g>
+    <rect id="Rectangle_87" data-name="Rectangle 87" width="120" height="12" transform="translate(261 334)" fill="#707070" />
+  </g>
+</svg>
